@@ -49,7 +49,3 @@ Beberapa checkpoint keamanan yang perlu diperhatikan dalam pengembangan SIKA ada
 7. Penggunaan HTTP yang Aman
    - Pada sistem yang digunakan di lingkungan nyata, komunikasi pengguna dengan server sebaiknya menggunakan HTTPS untuk melindungi data selama proses transmisi.
 
-Catatan:
-Risk register ini merupakan identifikasi risiko awal berdasarkan
-struktur dan skenario SIKA pada tugas. Risiko dapat diperbarui
-setelah sistem dikembangkan dan dilakukan pengujian keamanan lebih lanjut.
