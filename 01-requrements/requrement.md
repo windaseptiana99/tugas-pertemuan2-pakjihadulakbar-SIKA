@@ -9,11 +9,11 @@ pengguna dapat melihat data yang diperlukan melalui browser.
 
 2. Stakeholder
 
-| ID | Stakeholder > Kebutuhan 
-| ST-01 | Mahasiswa > Mengakses dan melihat informasi akademik 
-| ST-02 | Dosen > Mengakses informasi akademik sesuai hak akses 
-| ST-03 | Admin Akademik > Mengelola data akademik dan data pengguna 
-| ST-04 | Pengelola Sistem > Memastikan sistem berjalan dan data terlindungi 
+| ID | Stakeholder | Kebutuhan| 
+| ST-01 | Mahasiswa | Mengakses dan melihat informasi akademik |
+| ST-02 | Dosen | Mengakses informasi akademik sesuai hak akses |
+| ST-03 | Admin Akademik | Mengelola data akademik dan data pengguna |
+| ST-04 | Pengelola Sistem | Memastikan sistem berjalan dan data terlindungi |
 
 3. Functional Requirements
 
