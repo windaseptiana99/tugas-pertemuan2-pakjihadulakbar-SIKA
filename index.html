@@ -5,12 +5,14 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <title>SIKA -Dasboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/stle css/style.css">
 </head>
 <body>
     <header>
-        <h1>SIKA</h1>
-        <p>Sistem Informasi Akademik</p>
+        <div class="container">
+            <h1>SIKA</h1>
+            <p>Sistem Informasi Akademik</p>
+        </div>
     </header>
 
     <nav aria-label="Navigasi Utama">
@@ -22,10 +24,28 @@
     </nav>
 
     <main>
-        <section>
-            <h2>Dasboard Akademik</h2>
-            <p>Selamat datang di prototipe SIKA</p>
+        <section class="Dasboard-grid">
+            <article class="card">
+                <h2>Mahasiswa</h2>
+                <p>Kelola data mahasiaswa</p>
+            </article>
+            
+            <article class="card">
+                <h2>Matakuliah</h2>
+                <p>Informasi Matakuliah</p>
+            </article>
+
+            <article class="card">
+                <h2>KRS</h2>
+                <p>Rencana Studi Mahasiswa</p>
+            </article>
         </section>
+
+        <div class="table-wraper">
+            <table>
+                <!--thead dan tbody dari bab 2-->
+            </table>
+        </div>
         <aside>
             <h2>Informasi</h2>
             <p2>Data pada Bab 2 masih berupa data statis</p2>

@@ -5,34 +5,37 @@
     <meta name="Viewport"
           content="width=device-width, initial-scale=1.0">
     <title>SIKA -Form mahasiswa</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/stle css/style.css">
 </head>
 <body>
     <header>
-        <h1>SIKA</h1>
-        <p>Sistem Informasi Akademik</p>
+        <div class="container">
+          <h1>SIKA</h1>
+          <p>Sistem Informasi Akademik</p>
+        </div>
     </header>
 
     <nav aria-label="Navigasi Utama">
         <ul>
             <li><a href="index.html">Dasboard</a></li>
-            <li><a href="Mahasiswa.html">Profil mahasiswa</li>
+            <li><a href="Mahasiswa.html">Profil mahasiswa</a></li>
             <li><a href="form-mahasiswa.html">Form Mahasiswa</a></li>
         </ul>
     </nav>
 
     <main>
         <h1>Form Data Mahasiswa</h1>
-
         <form Action="#" method="post">
-            <div>
-                <label for="nim">NIM</label>
-                <input type="text"
-                       id="nim"
-                       name="nim"
-                       minleght="8"
-                       maxleght="15"
-                       required>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nim">NIM</label>
+                    <input type="text" id="nim" name="nim"required>
+                </div>
+
+                <div class="form-group">
+                    <label for="angkatan">Angkatan</label>
+                    <input type="number" id="angkatan" name="angkatan"required>
+                </div>
             </div>
 
             <div>
@@ -60,16 +63,7 @@
                 </select>
             </div>
 
-            <div>
-                <label for="angkatan">Angkatan</label>
-                <input type="number"
-                       id="angkatan"
-                       name="angkatan"
-                       min="2020"
-                       max="2030"
-                       required>
 
-            </div>
 
             <fielset>
                 <legend>Status Akademik</legend>
@@ -88,5 +82,6 @@
     <footer>
         <p>&copy; 2026 SIKA</p>
     </footer>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
